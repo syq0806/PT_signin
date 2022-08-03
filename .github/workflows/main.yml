@@ -22,7 +22,7 @@ jobs:
       - name: Checkout flexget_qbittorrent_mod repo
         uses: actions/checkout@v3
         with:
-          repository: lhllhx/flexget_qbittorrent_mod
+          repository: syq0806/flexget_qbittorrent_mod
           path: .flexget/plugins
 
       - name: Setup timezone
